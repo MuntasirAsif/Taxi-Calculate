@@ -35,10 +35,10 @@ class TimeSection extends StatelessWidget {
       icon = noonWeatherIcon;
       return 'Good Noon';
     } else if (hour >= 15 && hour < 18) {
-      icon = noonWeatherIcon;
+      icon = afterNoonWeatherIcon;
       return 'Good Afternoon';
-    } else if (hour >= 18 && hour < 21) {
-      icon = nightWeatherIcon;
+    } else if (hour >= 18 && hour < 20) {
+      icon = eveningWeatherIcon;
       return 'Good Evening';
     } else {
       icon = nightWeatherIcon;

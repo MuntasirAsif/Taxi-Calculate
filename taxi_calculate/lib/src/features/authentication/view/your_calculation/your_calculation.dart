@@ -20,7 +20,7 @@ class YourCalculation extends StatelessWidget {
               SizedBox(
                 height: Get.height * 0.02,
               ),
-              Text('Your Calculation',
+              Text('Calculation',
                   style: textTheme.headlineLarge!
                       .copyWith(fontWeight: FontWeight.bold)),
               SizedBox(

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:taxi_calculate/src/features/authentication/view/about_us/about_us.dart';
 import 'package:taxi_calculate/src/features/authentication/view/contact_us/contact_us.dart';
 import 'package:taxi_calculate/src/features/authentication/view/edit_profile/edit_profile.dart';
 import 'package:taxi_calculate/src/features/authentication/view/your_calculation/your_calculation.dart';
@@ -55,11 +56,16 @@ class ProfileBottomOptions extends StatelessWidget {
           SizedBox(
             height: Get.height * 0.01,
           ),*/
-          ButtonWidget(
-              height: Get.height * 0.06,
-              width: Get.width,
-              buttonName: aboutUs,
-              buttonNameFontSize: 20),
+          InkWell(
+            onTap: (){
+              Get.to(()=>AboutUs());
+            },
+            child: ButtonWidget(
+                height: Get.height * 0.06,
+                width: Get.width,
+                buttonName: aboutUs,
+                buttonNameFontSize: 20),
+          ),
           SizedBox(
             height: Get.height * 0.01,
           ),

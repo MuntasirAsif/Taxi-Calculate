@@ -4,6 +4,7 @@ const primaryColor = Color(0xffA954DD);
 const secondaryColor = Color(0xffD2D619);
 
 const bgColor = Color(0xffC5BCEC);
+const headerBgColor = Color(0xffa274e8);
 const buttonColor = Color(0xffA954DD);
 const cardBgColor = Color(0xffA954DD);
 const whiteColor = Color(0xffffffff);

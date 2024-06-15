@@ -28,7 +28,9 @@ const String otpImage = 'assets/images/otp_screen/otp image.png';
 const String personIcon = 'assets/images/home_screen/person.png';
 const String weatherIcon = 'assets/images/home_screen/weather.png';
 const String noonWeatherIcon = 'assets/images/home_screen/noon.png';
+const String afterNoonWeatherIcon = 'assets/images/home_screen/after_noon.png';
 const String nightWeatherIcon = 'assets/images/home_screen/night.png';
+const String eveningWeatherIcon = 'assets/images/home_screen/evening.png';
 const String homeImage = 'assets/images/home_screen/home_image.jpg';
 
 /*.......calculate screen image..........*/

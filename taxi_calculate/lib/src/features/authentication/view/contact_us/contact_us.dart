@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:taxi_calculate/src/constants/colors.dart';
 
 class ContactUs extends StatelessWidget {
   const ContactUs({super.key});
 
   @override
   Widget build(BuildContext context) {
-    const String email = 'support@taxicalculate.com';
+    const String email = 'muhammadalauddin290@gmail.com';
 
     void copyEmailToClipboard(BuildContext context) {
       Clipboard.setData(const ClipboardData(text: email));
@@ -20,10 +21,11 @@ class ContactUs extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Contact Us'),
+        title: const Text('Contact Us'),
+        backgroundColor: headerBgColor,
       ),
       body: Padding(
-        padding: EdgeInsets.all(16.0),
+        padding: const EdgeInsets.all(16.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
@@ -39,9 +41,9 @@ class ContactUs extends StatelessWidget {
             const SizedBox(height: 20),
             GestureDetector(
               onTap: () => copyEmailToClipboard(context),
-              child: Text(
+              child: const Text(
                 email,
-                style: const TextStyle(
+                style: TextStyle(
                   fontSize: 16,
                   color: Colors.blue,
                   decoration: TextDecoration.underline,
