@@ -2,7 +2,6 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:taxi_calculate/src/features/authentication/view/splash_screen/splash_screen.dart';
-import 'package:taxi_calculate/src/repository/authentication_repository/authentication_repository.dart';
 import 'package:taxi_calculate/src/utils/theme/theme.dart';
 import 'package:get/get.dart';
 import 'firebase_options.dart';
