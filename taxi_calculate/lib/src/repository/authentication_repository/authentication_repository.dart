@@ -43,7 +43,7 @@ class AuthenticationRepository extends GetxController {
           if(e.code == 'invalid-phone-number'){
             Get.snackbar('Error', 'The provided phone number is invalid.');
           }else{
-            Get.snackbar('Error', 'Something went wrong. Try again');
+            Get.snackbar('Error', e.message.toString());
           }
         },
     );
